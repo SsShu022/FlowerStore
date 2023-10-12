@@ -7,11 +7,13 @@ import lombok.ToString;
 
 
 @Getter @Setter @AllArgsConstructor @ToString
-public class Flower {
+public class Flower extends Item {
+
     private FlowerType flowerType;
     private double sepalLength;
     private double price;
     private FlowerColor color;
+
     public Flower() {
 
     }
@@ -22,20 +24,4 @@ public class Flower {
         this.sepalLength = flower.sepalLength;
     }
     
-
 }
-
-// @Setter
-// public class Flower {
-//     @Getter
-//     private double sepalLength;
-//     private FlowerColor color;
-//     @Getter
-//     private double price;
-//     @Getter
-//     private FlowerType flowerType;
-
-//     public String getColor() {
-//         return color.toString();
-//     }
-// }

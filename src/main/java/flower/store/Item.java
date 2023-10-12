@@ -1,9 +1,15 @@
 package flower.store;
 
-public abstract class Item {
-    public double getPrice() {
-        return 0;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter @Setter
+public abstract class Item {
+    private String name;
+    private double price;
+
+    public Item() {
+        
     }
     
 }
