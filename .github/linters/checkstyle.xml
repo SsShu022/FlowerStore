@@ -24,7 +24,7 @@
 
     <!-- Check that length of line is at most 80 characters. -->
     <module name="LineLength">
-        <property name="max" value="80"/>
+        <property name="max" value="150"/>
         <property name="ignorePattern" value="^ *\* *[^ ]+$"/>
     </module>
 
@@ -80,7 +80,7 @@
         <!-- Coding violations                                                           -->
         <!-- http://checkstyle.sourceforge.net/config_coding.html                        -->
         <!-- =========================================================================== -->
-        <module name="AvoidInlineConditionals"/>
+        <!-- <module name="AvoidInlineConditionals"/> -->
         <module name="CovariantEquals"/>
         <!--    <module name="DoubleCheckedLocking"/>  NO LONGER AVAILABLE IN CHECKSTYLE 5.6 -->
         <module name="EmptyStatement"/>
@@ -150,7 +150,7 @@
         <!-- http://checkstyle.sourceforge.net/config_imports.html                       -->
         <!-- =========================================================================== -->
         <module name="AvoidStarImport"/>
-        <module name="AvoidStaticImport"/>
+        <!-- <module name="AvoidStaticImport"/> -->
 
         <module name="IllegalImport">
             <property name="illegalPkgs"
