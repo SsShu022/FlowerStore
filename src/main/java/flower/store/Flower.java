@@ -9,15 +9,15 @@ import lombok.ToString;
 
 
 @Getter @Setter @AllArgsConstructor @ToString
-public class Flower{
+public class Flower {
     private FlowerType flowerType;
     private double sepalLength;
     private double price;
     private FlowerColor color;
-    public Flower(){
-        
+    public Flower() {
+
     }
-    public Flower(Flower flower){
+    public Flower(Flower flower) {
         this.flowerType = flower.flowerType;
         this.color = flower.color;
         this.price = flower.price;

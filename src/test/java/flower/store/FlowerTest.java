@@ -30,4 +30,5 @@ public class FlowerTest {
         flower.setColor(color);
         Assertions.assertEquals(FlowerColor.RED, flower.getColor());
     }
+    
 }

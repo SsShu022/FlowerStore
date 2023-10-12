@@ -1,7 +1,7 @@
 package flower.store;
 
-public enum FlowerColor{
-    RED,GREEN, WHITE 
+public enum FlowerColor {
+    RED, GREEN, WHITE 
 }
 
 // public enum FlowerColor {
